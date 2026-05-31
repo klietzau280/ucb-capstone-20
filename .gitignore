@@ -5,3 +5,12 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
+
+# Dataset is large (~28 MB) and auto-downloads on first notebook run
+data/*.csv
+
+# Course/reference materials — not part of the submission
+*.docx
+*.zip
+prompt.md
+requirements.md
